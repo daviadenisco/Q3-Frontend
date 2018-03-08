@@ -23,7 +23,7 @@ class Cards extends Component {
   };
 
   async getStudentInfo() {
-    const res = await fetch('http://localhost:8082/studentInfoTable');
+    const res = await fetch('https://q3-backend-dd.herokuapp.com/studentInfoTable');
 
     const json = await res.json();
 
