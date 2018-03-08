@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: sticky;
+  background-color: #043B4B;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  text-align: left;
+  opacity: 0.97;
+  z-index: 99;
+  text-align: left;
+}
+
+.galvanize-logo {
+  height: 500px;
+  padding: 23px;
+}
+
+.footer {
+  position: sticky;
+  background-color: #043B4B;
+  width: 100%;
+  height: 200px;
+  bottom: 0;
+  text-align: center;
+  opacity: 0.97;
+}
+
+.table {
+  width: 100%;
+  vertical-align: top;
+  text-align: center;
+  border: 0;
+}
+
+.galvanizeG {
+  width: 100px;
+  padding: 23px;
+  text-align: center;
+}
+
+.galvanizeGtd {
+  width: 55;
+  vertical-align: top;
+  text-align: center;
+}
+
+.spaceInFooter {
+  width: 20;
+}
+
+.footerNavContainer {
+  vertical-align: top;
+  text-align: center;
+  border: none;
+}
+
+.footerNav {
+  text-align: center;
+}
+
+.menuFooter {
+  display: block;
+  color: #C6BFB7;
+  text-align: center;
+}
+
+.menuItems {
+  list-style: none;
+}
+
+.menuAbout {
+  color: #C6BFB7;
+  float: left;
+}
+
+.menuAbout:hover {
+  color: white;
+}
+
+.menuFAQ {
+  color: #C6BFB7;
+  padding-left: 10px;
+  float: left;
+}
+
+.menuFAQ:hover {
+  color: white;
+}
+
+.menuPress {
+  color: #C6BFB7;
+  padding-left: 10px;
+  float: left;
+}
+
+.menuPress:hover {
+  color: white;
+}
+
+.menuCareers {
+  color: #C6BFB7;
+  padding-left: 10px;
+  float: left;
+}
+
+.menuCareers:hover {
+  color: white;
+}
+
+.menuLogin {
+  color: #C6BFB7;
+  padding-left: 10px;
+  float: left;
+}
+
+
+.menuLogin:hover {
+  color: white;
+}
+
+.address {
+  color: #C6BFB7;
+  float: left;
+  text-align: left;
+  width: 100%;
+  border-top: 1px solid #C6BFB7;
+}
