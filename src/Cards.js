@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Cards.css';
 import { Button, Card, Row, Col, CardTitle, Icon } from 'react-materialize';
+import Ionicon from 'react-ionicons'
 
 class Cards extends Component {
   constructor() {
@@ -28,8 +29,8 @@ class Cards extends Component {
 
   render() {
     return this.state.studentInfoTableArr.map((student, index) =>
-      <div key={index}>
-          <Card  className="col s6 m6 l4" header={
+      <div className="col s6 m6 l4" key={index}>
+          <Card header={
             <CardTitle reveal
               image={student.headshot}
               waves='light'
@@ -37,10 +38,21 @@ class Cards extends Component {
           }
           title={student.fullName}
           reveal={
-            <p>{student.capstoneDesc}</p>
+            <p>
+              <br></br>
+              {student.capstoneDesc}
+            </p>
           }>
           <p>
-            <a href={student.gitHub}><Icon></Icon></a>
+            <a href={student.gitHub} target="_blank">
+                <i id="cardIcon" className="fab fa-github fa-2x fa-fw" ></i>
+            </a>
+            <a href={student.linkedIn}>
+                <i id="cardIcon" className="fab fa-linkedin fa-2x fa-fw"></i>
+            </a>
+            <a href={student.email}>
+              <i id="cardIcon" className="fas fa-envelope-square fa-2x fa-fw"></i>
+            </a>
           </p>
         </Card>
     </div>

@@ -10,7 +10,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<NavBar />, document.getElementById('nav'));
 ReactDOM.render(<MeetTheStudents />, document.getElementById('meetTheStudents'));
-ReactDOM.render(<Cards />, document.getElementById('root'));
+ReactDOM.render(<Cards />, document.getElementById('cards'));
 ReactDOM.render(<Footer />, document.getElementById('footer'));
 
 registerServiceWorker();

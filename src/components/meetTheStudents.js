@@ -3,8 +3,8 @@ import "../Cards.css";
 
 const MeetTheStudents = () =>
   <div className="MeetTheStudentsDiv">
-    <header className="MeetTheStudentsHeader">Meet the Students</header>
+    <header className="meetTheStudentsHeader">Meet the Students</header>
       <p className="App-intro"></p>
-</div>
+  </div>
 
 export default MeetTheStudents;
