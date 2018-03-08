@@ -1,6 +1,7 @@
 import React from 'react';
 import "../Cards.css";
 import galvanizeG from '../images/galvanize-G.svg';
+import Bootstrap from 'react-bootstrap';
 
 const Footer = () =>
   <div>

@@ -2,22 +2,23 @@
   margin: 0;
   padding: 0;
 }
-
-body {
-  background-color: #FFFFFF;
+ .grey-text {
+  color: red !important;
 }
 
-#navbar {
+body {
+  background-color: whitesmoke;
+}
+
+.navbar {
   position: sticky;
+  top: 0;
   background-color: #043B4B;
   width: 100%;
   height: 75px;
-  top: 0;
-  text-align: left;
   opacity: 0.97;
   text-align: left;
   border-radius: 0px;
-  z-index: 99;
 }
 
 .galvanize-logo {
@@ -27,16 +28,35 @@ body {
   padding-bottom: 20px;
 }
 
-.meetTheStudentsHeader {
-  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+.eventbrite-logo {
+  height: 77px;
+  padding-top: 21px;
+  padding-right: 21px;
+  padding-bottom: 21px;
+  float: right;
 }
 
-#card {
+.eventbrite-logo:hover {
+  text-shadow: 2px 2px 5px red;
+}
 
+.meetTheStudentsHeader {
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 2.5em;
+  font-weight: 300;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#cards {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #cardIcon {
   color: #043B4B;
+  margin-left: 0;
 }
 
 .table {
