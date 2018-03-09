@@ -69,7 +69,7 @@ class Cards extends Component {
             </p>
           }>
           <p className="iconSection" style={styleIconSection}>
-            <a href={student.linkedIn}>
+            <a href={student.linkedIn} target="_blank">
                 <i id="cardIcon" className="fab fa-linkedin fa-2x fa-fw"></i>
             </a>
             <a href={student.gitHub} target="_blank">
