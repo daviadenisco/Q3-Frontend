@@ -2,14 +2,31 @@ import React, { Component } from 'react';
 import './Cards.css';
 import { Button, Card, Row, Col, CardTitle, Icon } from 'react-materialize';
 import Ionicon from 'react-ionicons'
+import Bootstrap from 'react-bootstrap'
 
 const style = {
   marginLeft: 3,
-  marginBottom: 1
+  marginBottom: 0,
+  fontSize: 25
 }
 
 const styleImg = {
-  border: '30px solid white'
+  borderLeft: '27px solid white',
+  borderRight: '27px solid white',
+  borderTop: '27px solid white',
+  borderBottom: 'none'
+}
+
+const styleCard = {
+  // height: '50%',
+  // border: '1px solid red',
+  // width: 333,
+  // height: 'auto',
+  // padding: 10
+}
+
+const styleIconSection = {
+  paddingTop: 10
 }
 
 class Cards extends Component {
@@ -39,20 +56,23 @@ class Cards extends Component {
   render() {
     return this.state.studentInfoTableArr.map((student, index) =>
       <div className="col s6 m6 l4" key={index}>
-          <Card  header={
+          <Card style={styleCard} header={
             <CardTitle style={styleImg}
               image={student.headshot}
-              waves='light'
+              waves='dark'
             />
           }
           title={<p style={style}>{student.fullName}</p>}
           reveal={
             <p>
               <br></br>
+              <br></br>
+              <br></br>
+
               {student.capstoneDesc}
             </p>
           }>
-          <p>
+          <p className="iconSection" style={styleIconSection}>
             <a href={student.linkedIn}>
                 <i id="cardIcon" className="fab fa-linkedin fa-2x fa-fw"></i>
             </a>
