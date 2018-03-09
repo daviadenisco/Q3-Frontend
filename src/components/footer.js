@@ -11,7 +11,7 @@ const Footer = () => <div>
           <table className="table" width="100%" cellPadding="0" cellSpacing="0">
             <tr>
               <td className="hidden-sm hidden-xs">
-                <a href="http://www.galvanize.com">
+                <a href="http://www.galvanize.com" target="_blank">
                   <img id="logo" src={galvanizeG} className="galvanizeG" alt="Galvanize G Logo"/>
                 </a>
               </td>
@@ -20,44 +20,44 @@ const Footer = () => <div>
 
                   <div className="">
                     <li className="menuItems">
-                      <a className="menuAbout" title="About" href="http://www.galvanize.com/about/">ABOUT</a>
-                      <a className="menuFAQ" title="FAQ" href="http://www.galvanize.com/faq/">FAQ</a>
-                      <a className="menuPress" title="Press" href="http://www.galvanize.com/press/">PRESS</a>
-                      <a className="menuCareers" title="Careers" href="http://www.galvanize.com/careers/">CAREERS</a>
-                      <a className="menuLogin" title="Login" href="http://www.members.galvanize.com">LOGIN</a>
+                      <a className="menuAbout" title="About" href="http://www.galvanize.com/about/" target="_blank">ABOUT</a>
+                      <a className="menuFAQ" title="FAQ" href="http://www.galvanize.com/faq/" target="_blank">FAQ</a>
+                      <a className="menuPress" title="Press" href="http://www.galvanize.com/press/" target="_blank">PRESS</a>
+                      <a className="menuCareers" title="Careers" href="http://www.galvanize.com/careers/" target="_blank">CAREERS</a>
+                      <a className="menuLogin" title="Login" href="http://www.members.galvanize.com" target="_blank">LOGIN</a>
                       <a></a>
                       <span>
                       <div id="rightSide" className="right side">
                         <span>
-                          <a id="hireOur">Hire Our</a><a className="techTalent" href="https://talent.galvanize.com">
+                          <a id="hireOur">Hire Our</a><a className="techTalent" href="https://talent.galvanize.com" target="_blank">
                             Tech Talent</a> </span>
                         <li className="socialIcons">
-                          <a href="https://twitter.com/galvanize">
+                          <a href="https://twitter.com/galvanize" target="_blank">
                             <i id="icons" className="fab fa-twitter fa-fw fa-lg"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
-                          <a href="https://www.facebook.com/GalvanizeHQ">
+                          <a href="https://www.facebook.com/GalvanizeHQ" target="_blank">
                             <i id="icons" className="fab fa-facebook-f fa-fw fa-lg"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
-                          <a href="https://instagram.com/GalvanizeHQ">
+                          <a href="https://instagram.com/GalvanizeHQ" target="_blank">
                             <i id="icons" className="fab fa-instagram fa-fw fa-lg"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
-                          <a href="https://www.linkedin.com/company/galvanize-it">
+                          <a href="https://www.linkedin.com/company/galvanize-it" target="_blank">
                             <i id="icons" className="fab fa-linkedin-in fa-fw fa-lg"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
-                          <a href="https://plus.google.com/104456246601890468626/posts">
+                          <a href="https://plus.google.com/104456246601890468626/posts" target="_blank">
                             <i id="icons" className="fab fa-google-plus-g fa-fw fa-lg"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
-                          <a href="https://www.youtube.com/channel/UC6CFuXHLJQ_30gOxUTEFj_g">
+                          <a href="https://www.youtube.com/channel/UC6CFuXHLJQ_30gOxUTEFj_g" target="_blank">
                             <i id="icons" className="fab fa-youtube fa-fw fa-lg"></i>
                           </a>
                         </li>
