@@ -31,6 +31,7 @@ const Footer = () => <div>
                         <span>
                           <a id="hireOur">Hire Our</a><a className="techTalent" href="https://talent.galvanize.com">
                             Tech Talent</a> </span>
+                            <a className="spacing">......</a>
                         <li className="socialIcons">
                           <a href="https://twitter.com/galvanize">
                             <i id="icons" className="fab fa-twitter fa-fw fa-lg"></i>

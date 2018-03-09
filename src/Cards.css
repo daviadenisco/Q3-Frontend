@@ -213,6 +213,10 @@ table {
   display: inline-block;
 }
 
+.spacing {
+  color: #043B4B;
+}
+
 footer {
   position: sticky;
   background-color: #043B4B;
