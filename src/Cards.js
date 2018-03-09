@@ -17,12 +17,8 @@ const styleImg = {
   borderBottom: 'none'
 }
 
-const styleCard = {
-  // height: '50%',
-  // border: '1px solid red',
-  // width: 333,
-  // height: 'auto',
-  // padding: 10
+const styleReveal = {
+  fontSize: 16
 }
 
 const styleIconSection = {
@@ -56,7 +52,7 @@ class Cards extends Component {
   render() {
     return this.state.studentInfoTableArr.map((student, index) =>
       <div className="col s6 m6 l4" key={index}>
-          <Card style={styleCard} header={
+          <Card header={
             <CardTitle style={styleImg}
               image={student.headshot}
               waves='dark'
@@ -64,7 +60,7 @@ class Cards extends Component {
           }
           title={<p style={style}>{student.fullName}</p>}
           reveal={
-            <p>
+            <p style={styleReveal}>
               <br></br>
               <br></br>
               <br></br>
