@@ -14,7 +14,8 @@ const styleImg = {
   borderLeft: '27px solid white',
   borderRight: '27px solid white',
   borderTop: '27px solid white',
-  borderBottom: 'none'
+  borderBottom: 'none',
+  cursor: "default"
 }
 
 const styleReveal = {
@@ -58,7 +59,7 @@ class Cards extends Component {
               waves='dark'
             />
           }
-          title={<p style={style}>{student.fullName}</p>}
+          title={<p className="fullName" style={style}>{student.fullName}</p>}
           reveal={
             <p style={styleReveal}>
               <br></br>

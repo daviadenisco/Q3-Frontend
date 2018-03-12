@@ -12,7 +12,6 @@ body {
   top: 0;
   background-color: #043B4B;
   width: 100%;
-  height: 75px;
   opacity: 0.97;
   text-align: left;
   border-radius: 0px;
@@ -54,6 +53,15 @@ body {
 #cardIcon {
   color: #043B4B;
   margin-left: 0;
+}
+
+#cardIcon:hover {
+  color: #E28840;
+  transition: all 0.5s ease-in-out;
+}
+
+.fullName {
+  cursor: default;
 }
 
 .table {

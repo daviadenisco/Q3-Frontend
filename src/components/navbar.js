@@ -11,7 +11,7 @@ const NavBar = () =>
           <img className="galvanize-logo" src={galvanize} alt="galvanize logo" />
         </a>
         <a href="https://www.eventbrite.com/d/ny--new-york/galvanize/?q=galvanize&loc=New+York%2C+NY&date=" target="_blank">
-          <img className="eventbrite-logo" src={eventbrite} alt="rsvp"/>
+          <img className="eventbrite-logo" src={eventbrite} title="RSVP" alt="rsvp"/>
         </a>
       </div>
 
