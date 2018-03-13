@@ -33,32 +33,32 @@ const Footer = () => <div>
                             Tech Talent</a> </span>
                         <li className="socialIcons">
                           <a href="https://twitter.com/galvanize" target="_blank">
-                            <i id="icons" className="fab fa-twitter fa-fw fa-lg"></i>
+                            <i id="icons" className="fab fa-twitter fa-fw"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
                           <a href="https://www.facebook.com/GalvanizeHQ" target="_blank">
-                            <i id="icons" className="fab fa-facebook-f fa-fw fa-lg"></i>
+                            <i id="icons" className="fab fa-facebook-f fa-fw"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
                           <a href="https://instagram.com/GalvanizeHQ" target="_blank">
-                            <i id="icons" className="fab fa-instagram fa-fw fa-lg"></i>
+                            <i id="icons" className="fab fa-instagram fa-fw"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
                           <a href="https://www.linkedin.com/company/galvanize-it" target="_blank">
-                            <i id="icons" className="fab fa-linkedin-in fa-fw fa-lg"></i>
+                            <i id="icons" className="fab fa-linkedin-in fa-fw"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
                           <a href="https://plus.google.com/104456246601890468626/posts" target="_blank">
-                            <i id="icons" className="fab fa-google-plus-g fa-fw fa-lg"></i>
+                            <i id="icons" className="fab fa-google-plus-g fa-fw"></i>
                           </a>
                         </li>
                         <li className="socialIcons">
                           <a href="https://www.youtube.com/channel/UC6CFuXHLJQ_30gOxUTEFj_g" target="_blank">
-                            <i id="icons" className="fab fa-youtube fa-fw fa-lg"></i>
+                            <i id="icons" className="fab fa-youtube fa-fw"></i>
                           </a>
                         </li>
                       </div>

@@ -30,7 +30,8 @@ class Cards extends Component {
   constructor() {
     super();
     this.state = {
-      studentInfoTableArr: []
+      studentInfoTableArr: [],
+      loading: true
     }
     this.getStudentInfo = this.getStudentInfo.bind(this)
     // this.renderStudentInfo = this.renderStudentInfo.bind(this)
@@ -42,7 +43,8 @@ class Cards extends Component {
     const json = await res.json();
 
     this.setState({
-      studentInfoTableArr: json
+      studentInfoTableArr: json,
+      loading: false
     })
   }
 
@@ -51,6 +53,9 @@ class Cards extends Component {
   }
 
   render() {
+    if (this.state.loading) {
+      return (<h1 id="loading">loading</h1>)
+    }
     return this.state.studentInfoTableArr.map((student, index) =>
       <div className="col s6 m6 l4" key={index}>
           <Card header={

@@ -234,3 +234,18 @@ footer {
   text-align: left;
   opacity: 0.97;
 }
+
+#loading {
+  margin-top: 20%;
+  font-size: 200px;
+  color: red;
+  border: 2px solid red;
+}
+
+#icons {
+  font-size: 1em;
+}
+#icons:hover {
+  color: white;
+  transition: all 0.5s ease;
+}
