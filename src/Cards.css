@@ -236,10 +236,8 @@ footer {
 }
 
 #loading {
-  margin-top: 20%;
-  font-size: 200px;
+  font-size: 30px;
   color: red;
-  border: 2px solid red;
 }
 
 #icons {

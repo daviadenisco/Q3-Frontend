@@ -54,7 +54,12 @@ class Cards extends Component {
 
   render() {
     if (this.state.loading) {
-      return (<h1 id="loading">loading</h1>)
+      return (
+        <div>
+          <h1 id="loading">student info loading...</h1>
+          <h2>get ready to be wowwed!</h2>
+        </div>
+      )
     }
     return this.state.studentInfoTableArr.map((student, index) =>
       <div className="col s6 m6 l4" key={index}>
