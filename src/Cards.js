@@ -56,8 +56,7 @@ class Cards extends Component {
     if (this.state.loading) {
       return (
         <div>
-          <h1 id="loading">student info loading...</h1>
-          <h2>get ready to be wowwed!</h2>
+          <h1 id="loading">good stuff loading...</h1>
         </div>
       )
     }
